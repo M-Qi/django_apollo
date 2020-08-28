@@ -9,6 +9,7 @@ def index(request):
     return HttpResponse('首页')
 
 def safe_a(request):
+    print('输出A等级安全算法')
     return HttpResponse('实现了A等级的安全级别')
 
 
