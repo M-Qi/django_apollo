@@ -15,6 +15,7 @@ def safe_a(request):
 
 
 def safe_b(request):
+    print('输出B等级安全的算法')
     return HttpResponse('实现b级别安全等级')
 
 def reg(request):
