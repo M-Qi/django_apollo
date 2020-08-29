@@ -23,5 +23,6 @@ def reg(request):
 
 
 def safe_c(request):
+    print('修复C无法打印')
     return HttpResponse('实现C级别的安全等级')
 
